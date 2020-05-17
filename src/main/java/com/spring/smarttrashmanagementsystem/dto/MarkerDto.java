@@ -5,34 +5,34 @@ import com.spring.smarttrashmanagementsystem.Model.MarkerRating;
 
 public class MarkerDto {
 
-    private String latitude;
+    private Double latitude;
 
-    private String longitude;
+    private Double longitude;
 
     private MarkerRating rating;
 
     public MarkerDto() {
     }
 
-    public MarkerDto(String latitude, String longitude, MarkerRating rating) {
+    public MarkerDto(Double latitude, Double longitude, MarkerRating rating) {
         this.latitude = latitude;
         this.longitude = longitude;
         this.rating = rating;
     }
 
-    public String getLatitude() {
+    public Double getLatitude() {
         return latitude;
     }
 
-    public void setLatitude(String latitude) {
+    public void setLatitude(Double latitude) {
         this.latitude = latitude;
     }
 
-    public String getLongitude() {
+    public Double getLongitude() {
         return longitude;
     }
 
-    public void setLongitude(String longitude) {
+    public void setLongitude(Double longitude) {
         this.longitude = longitude;
     }
 
