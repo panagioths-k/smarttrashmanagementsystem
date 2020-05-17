@@ -25,7 +25,7 @@ public class MarkerController {
         MarkerDto m5 = new MarkerDto(40.632568, 22.943123, MarkerRating.HUE_GREEN);
         MarkerDto m6 = new MarkerDto(40.635890, 22.945828, MarkerRating.HUE_RED);
         MarkerDto m7 = new MarkerDto(40.636183, 22.952313, MarkerRating.HUE_GREEN);
-        MarkerDto m8 = new MarkerDto(40.32242, 22.954632, MarkerRating.HUE_RED);
+        MarkerDto m8 = new MarkerDto(40.632242, 22.954632, MarkerRating.HUE_RED);
         MarkerDto m9 = new MarkerDto(40.632088, 22.951764, MarkerRating.HUE_GREEN);
 
         List<MarkerDto> markers = new ArrayList<>();
